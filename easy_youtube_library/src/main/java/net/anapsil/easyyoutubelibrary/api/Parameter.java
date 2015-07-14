@@ -5,7 +5,7 @@ package net.anapsil.easyyoutubelibrary.api;
  *
  * @author anapsil
  */
-public enum Parameters {
+public enum Parameter {
     /**
      * The part parameter specifies a comma-separated list of one or more playlistItem resource
      * properties that the API response will include.
@@ -69,7 +69,7 @@ public enum Parameters {
 
     private final String parameter;
 
-    Parameters(String parameter) {
+    Parameter(String parameter) {
         this.parameter = parameter;
     }
 
